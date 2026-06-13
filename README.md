@@ -4,7 +4,7 @@
 ---
 
 - 🛠️ Building multiplayer & mobile games with **Unity, C#, Photon Fusion 2, Nakama, Addressables**
-- 🚀 Shipped **Pakapow: Friendship Never Ends** (300K+ downloads) and **Zabb World: Secret Stories**
+- 🚀 Shipped **Zabb World: Secret Stories**
 - 🧰 Creating open-source Unity tools under **KidzDev**
 - 🌐 Portfolio → [siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)
 

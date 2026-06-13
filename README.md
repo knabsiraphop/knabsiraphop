@@ -1,23 +1,34 @@
-<h1 align="center">Hi, I'm Knab 👋</h1>
-<p align="center">🎮 Unity Game Developer · Bangkok, Thailand · 6+ years</p>
+<h1 align="center">Hi, I'm Bank 👋</h1>
+<p align="center">🎮 Unity Game Developer · 🌏 Bangkok, Thailand · 🕹️ 6+ years</p>
 
 ---
 
-- 🛠️ Building multiplayer & mobile games with **Unity, C#, Photon Fusion 2, Nakama, Addressables**
-- 🚀 Shipped **Pakapow: Friendship Never Ends** (300K+ downloads) and **Zabb World: Secret Stories**
-- 🧰 Creating open-source Unity tools under **KidzDev**
-- 🌐 Portfolio → [siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)
+### 👨‍💻 About me
+- 🛠️ I build **multiplayer , mobile games & OpenGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
+- 🌐 Specialties: **Nakama**, **Addressables**
+- 🧰 Building open-source Unity tooling under **KidzDev**
+- 🎓 B.Eng. Computer Engineering — Chiang Mai University
+- 📜 Microsoft *Foundational C#* certified
+- 🔗 Portfolio → **[siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)**
 
-### 🧩 Tech
+### 🧩 Tech Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=unity,cs,dotnet,git,github,firebase,vscode" />
+  <img src="https://skillicons.dev/icons?i=unity,cs,dotnet,git,github,visualstudio" />
 </p>
 
-### 📊 GitHub
+![Nakama](https://img.shields.io/badge/Nakama-25A0DA?style=flat-square)
+![Addressables](https://img.shields.io/badge/Unity_Addressables-222C37?style=flat-square)
+
+### 🎮 Shipped Games
+- **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
+
+### 🧰 Open Source
+**[kidzdev-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-addressables-toolkit)** — UPM utilities for Unity Addressables: reference-counted async loading, prefab pooling, typed references, and remote-content download helpers.
+
+### 📊 GitHub Stats
 <p>
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=knabsiraphop&show_icons=true&theme=tokyonight" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=knabsiraphop&layout=compact&theme=tokyonight" />
 </p>
 
-### 📌 Featured
-**[kidzdev-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-addressables-toolkit)** — UPM utilities for Unity Addressables: async loading, pooling, typed references, remote download.
+<p align="center"><sub>⚽ Tottenham Hotspur · COYS</sub></p>

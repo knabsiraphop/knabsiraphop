@@ -23,10 +23,10 @@
 - **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
 
 ### 🧰 Open Source
-- **[kidzdev-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-addressables-toolkit)** — UPM utilities for Unity Addressables: reference-counted async loading, prefab pooling, typed references, and remote-content download helpers.
-- **[kidzdev-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-recyclable-scroll)** — High-performance recyclable ScrollRect for uGUI: object pooling, linear & loop modes, variable item sizes, and sync/async (Addressables) item loading.
-- **[kidzdev-responsive-fit](https://github.com/knabsiraphop/kidzdev-responsive-fit)** — Responsive item sizing for uGUI: fit scroll/grid items to any screen (items-per-view, aspect ratio, columns, safe area).
-- **[kidzdev-extensions](https://github.com/knabsiraphop/kidzdev-extensions)** — Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries.
+- **[kidzdev-unity-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit)** — UPM utilities for Unity Addressables: reference-counted async loading, prefab pooling, typed references, and remote-content download helpers.
+- **[kidzdev-unity-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-unity-recyclable-scroll)** — High-performance recyclable ScrollRect for uGUI: object pooling, linear & loop modes, variable item sizes, and sync/async (Addressables) item loading.
+- **[kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit)** — Responsive item sizing for uGUI: fit scroll/grid items to any screen (items-per-view, aspect ratio, columns, safe area).
+- **[kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions)** — Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries.
 
 ### 📊 GitHub Stats
 <p>

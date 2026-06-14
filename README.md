@@ -33,5 +33,3 @@
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=knabsiraphop&show_icons=true&theme=tokyonight" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=knabsiraphop&layout=compact&theme=tokyonight" />
 </p>
-
-<p align="center"><sub>⚽ Tottenham Hotspur · COYS</sub></p>

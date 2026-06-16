@@ -4,7 +4,7 @@
 ---
 
 ### 👨‍💻 About me
-- 🛠️ I build **multiplayer , mobile games & OpenGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
+- 🛠️ I build **multiplayer , mobile games & WebGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
 - 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University

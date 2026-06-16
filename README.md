@@ -21,6 +21,7 @@
 
 ### 🎮 Shipped Games
 - **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
+- **Pakapow: Friendship Never Ends** — bug fixes, fashion system updates, build pipeline
 
 ### 🧰 Open Source
 - **[kidzdev-unity-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit)** — UPM utilities for Unity Addressables: reference-counted async loading, prefab pooling, typed references, and remote-content download helpers.

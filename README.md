@@ -21,6 +21,7 @@
 
 ### 🎮 Shipped Games
 - **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
+- **Rescue MeowMeow** — educational puzzle game for Thai PBS Kids (WebGL & mobile browser) · [▶ Play Demo](https://knabsiraphop.itch.io/rescue-meowmeow-portfolio-demo)
 - **Pakapow: Friendship Never Ends** — bug fixes, fashion system updates, build pipeline
 
 ### 🧰 Open Source

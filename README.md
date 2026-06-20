@@ -30,6 +30,7 @@
 - **[kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit)** — Responsive item sizing for uGUI: fit scroll/grid items to any screen (items-per-view, aspect ratio, columns).
 - **[kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions)** — Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries.
 - **[kidzdev-unity-google-sheet-importer](https://github.com/knabsiraphop/kidzdev-unity-google-sheet-importer)** — Editor tool for importing Google Sheets data into Unity: maps sheet columns to C# fields via reflection, outputs JSON files or ScriptableObject assets.
+- **[kidzdev-unity-localization](https://github.com/knabsiraphop/kidzdev-unity-localization)** — Lightweight localization for Unity: swappable JSON/ScriptableObject sources, UniTask parallel loading, and TMP auto-refresh via LocalizationHandler.
 
 ### 📊 GitHub Stats
 <p>

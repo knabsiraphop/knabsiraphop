@@ -31,6 +31,7 @@
 - **[kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions)** — Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries.
 - **[kidzdev-unity-google-sheet-importer](https://github.com/knabsiraphop/kidzdev-unity-google-sheet-importer)** — Editor tool for importing Google Sheets data into Unity: maps sheet columns to C# fields via reflection, outputs JSON files or ScriptableObject assets.
 - **[kidzdev-unity-localization](https://github.com/knabsiraphop/kidzdev-unity-localization)** — Lightweight localization for Unity: swappable JSON/ScriptableObject sources, UniTask parallel loading, and TMP auto-refresh via LocalizationHandler.
+- **[kidzdev-unity-scroll-snap](https://github.com/knabsiraphop/kidzdev-unity-scroll-snap)** — ScrollRect-based snap pager for uGUI: horizontal carousel, vertical picker, center-aligned coverflow, dot/number/page-button indicators, focus effects, and auto-play.
 
 ### 📊 GitHub Stats
 <p>

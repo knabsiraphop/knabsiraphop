@@ -33,6 +33,12 @@
 |---|---|
 | [kidzdev-unity-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit) | Reference-counted async loading, prefab pooling, typed `AssetReference` wrappers, and remote-content download helpers |
 
+**⚙️ Game Systems**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
+
 **🎨 UI / uGUI**
 
 | Package | Description |

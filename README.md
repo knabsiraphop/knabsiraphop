@@ -18,6 +18,7 @@
 
 ![Nakama](https://img.shields.io/badge/Nakama-25A0DA?style=flat-square)
 ![Addressables](https://img.shields.io/badge/Unity_Addressables-222C37?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
 ### 🎮 Shipped Games
 - **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
@@ -51,7 +52,7 @@
 
 | Package | Description |
 |---|---|
-| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries |
+| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), and GameObjects |
 
 ### 📊 GitHub Stats
 <p>

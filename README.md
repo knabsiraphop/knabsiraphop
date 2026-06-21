@@ -24,14 +24,34 @@
 - **Rescue MeowMeow** — educational puzzle game for Thai PBS Kids (WebGL & mobile browser) · [▶ Play Demo](https://knabsiraphop.itch.io/rescue-meowmeow-portfolio-demo)
 - **Pakapow: Friendship Never Ends** — bug fixes, fashion system updates, build pipeline
 
-### 🧰 Open Source
-- **[kidzdev-unity-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit)** — UPM utilities for Unity Addressables: reference-counted async loading, prefab pooling, typed references, and remote-content download helpers.
-- **[kidzdev-unity-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-unity-recyclable-scroll)** — High-performance recyclable ScrollRect for uGUI: object pooling, linear & loop modes, variable item sizes, and sync/async (Addressables) item loading.
-- **[kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit)** — Responsive item sizing for uGUI: fit scroll/grid items to any screen (items-per-view, aspect ratio, columns).
-- **[kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions)** — Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries.
-- **[kidzdev-unity-google-sheet-importer](https://github.com/knabsiraphop/kidzdev-unity-google-sheet-importer)** — Editor tool for importing Google Sheets data into Unity: maps sheet columns to C# fields via reflection, outputs JSON files or ScriptableObject assets.
-- **[kidzdev-unity-localization](https://github.com/knabsiraphop/kidzdev-unity-localization)** — Lightweight localization for Unity: swappable JSON/ScriptableObject sources, UniTask parallel loading, and TMP auto-refresh via LocalizationHandler.
-- **[kidzdev-unity-scroll-snap](https://github.com/knabsiraphop/kidzdev-unity-scroll-snap)** — ScrollRect-based snap pager for uGUI: horizontal carousel, vertical picker, center-aligned coverflow, dot/number/page-button indicators, focus effects, and auto-play.
+### 🧰 Open Source — KidzDev Unity Packages
+
+**📦 Addressables & Asset Loading**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-addressables-toolkit](https://github.com/knabsiraphop/kidzdev-unity-addressables-toolkit) | Reference-counted async loading, prefab pooling, typed `AssetReference` wrappers, and remote-content download helpers |
+
+**🎨 UI / uGUI**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-scroll-snap](https://github.com/knabsiraphop/kidzdev-unity-scroll-snap) | Snap pager — horizontal carousel, vertical picker, coverflow, dot / number / page-button indicators, focus effects, auto-play |
+| [kidzdev-unity-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-unity-recyclable-scroll) | High-performance recyclable `ScrollRect` — object pooling, linear & loop modes, variable sizes, sync / async (Addressables) binding |
+| [kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit) | Responsive grid / scroll item sizing — fit by items-per-view, aspect ratio, or column count |
+
+**🛠️ Editor Tools**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-google-sheet-importer](https://github.com/knabsiraphop/kidzdev-unity-google-sheet-importer) | Import Google Sheets into Unity — maps columns to C# fields via reflection, outputs JSON or ScriptableObject assets |
+| [kidzdev-unity-localization](https://github.com/knabsiraphop/kidzdev-unity-localization) | Lightweight localization — JSON / ScriptableObject sources, UniTask parallel loading, TMP auto-refresh |
+
+**🔧 Utilities**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods for strings, collections, arrays, and dictionaries |
 
 ### 📊 GitHub Stats
 <p>

@@ -8,7 +8,6 @@
 - 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University
-- 📜 Microsoft *Foundational C#* certified
 - 🔗 Portfolio → **[siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)**
 
 ### 🧩 Tech Stack

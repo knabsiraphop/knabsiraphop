@@ -38,6 +38,14 @@
 |---|---|
 | [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
 
+
+
+**🎵 Audio**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-audio](https://github.com/knabsiraphop/kidzdev-unity-audio) | Production-grade BGM/SFX/Ambience audio service — UniTask async, AudioMixer-backed dB conversion, cancellable crossfades, pooled sources, plug-in clip loader (Resources default, Addressables adapter), plug-in volume store |
+
 **🎨 UI / uGUI**
 
 | Package | Description |

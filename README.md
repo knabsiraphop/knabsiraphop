@@ -54,6 +54,7 @@
 | [kidzdev-unity-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-unity-recyclable-scroll) | High-performance recyclable `ScrollRect` — object pooling, linear & loop modes, variable sizes, sync / async (Addressables) binding |
 | [kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit) | Responsive grid / scroll item sizing — fit by items-per-view, aspect ratio, or column count |
 | [kidzdev-unity-screen-navigator](https://github.com/knabsiraphop/kidzdev-unity-screen-navigator) | Stack-based UI navigation — push/pop history with a back button, async transitions, and an injectable animation seam. UniTask-only, zero singleton coupling |
+| [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Notch / safe-area uGUI components — SafeArea shrinks content inward, SafeAreaOutsideMask fills the cutout zones with colour bars, with per-axis control and an in-editor device simulator |
 
 **🛠️ Editor Tools**
 

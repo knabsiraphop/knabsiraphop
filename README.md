@@ -8,7 +8,7 @@
 - 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University
-- 🔗 Portfolio → **[siraphot-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)**
+- 🔗 Portfolio → **[siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)**
 
 ### 🧩 Tech Stack
 <p>
@@ -36,8 +36,7 @@
 
 | Package | Description |
 |---|---|
-| [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
-
+| [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
 
 
 
@@ -45,16 +44,16 @@
 
 | Package | Description |
 |---|---|
-| [kidzdev-unity-audio](https://github.com/knabsiraphop/kidzdev-unity-audio) | Production-grade BGM/SFX/Ambience audio service — UniTask async, AudioMixer-backed dB conversion, cancellable crossfades, pooled sources, plug-in clip loader (Resources default, Addressables adapter), plug-in bolume store |
+| [kidzdev-unity-audio](https://github.com/knabsiraphop/kidzdev-unity-audio) | Production-grade BGM/SFX/Ambience audio service — UniTask async, AudioMixer-backed dB conversion, cancellable crossfades, pooled sources, plug-in clip loader (Resources default, Addressables adapter), plug-in volume store |
 
-*+🎨 UI / uGUI**
+**🎨 UI / uGUI**
 
 | Package | Description |
 |---|---|
 | [kidzdev-unity-scroll-snap](https://github.com/knabsiraphop/kidzdev-unity-scroll-snap) | Snap pager — horizontal carousel, vertical picker, coverflow, dot / number / page-button indicators, focus effects, auto-play |
 | [kidzdev-unity-recyclable-scroll](https://github.com/knabsiraphop/kidzdev-unity-recyclable-scroll) | High-performance recyclable `ScrollRect` — object pooling, linear & loop modes, variable sizes, sync / async (Addressables) binding |
 | [kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit) | Responsive grid / scroll item sizing — fit by items-per-view, aspect ratio, or column count |
-| [kidzdev-unity-screen-navigator](https://github.com/knabsiraphop/kidzdev-unity-screen-navigator) | Stack-based UI/scene navigation for Unity — push/pop history with a back button, async transitions, and an injectable animation seam. UniTask-only, zero singleton coupling. |
+| [kidzdev-unity-screen-navigator](https://github.com/knabsiraphop/kidzdev-unity-screen-navigator) | Stack-based UI navigation — push/pop history with a back button, async transitions, and an injectable animation seam. UniTask-only, zero singleton coupling |
 
 **🛠️ Editor Tools**
 

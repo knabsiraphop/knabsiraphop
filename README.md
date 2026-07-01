@@ -4,7 +4,7 @@
 ---
 
 ### 👨‍💻 About me
-- 🛠️ I build **multiplayer , mobile games & WebGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
+- 🛠️ I build **multiplayer, mobile & WebGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
 - 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University
@@ -38,8 +38,6 @@
 |---|---|
 | [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
 
-
-
 **🎵 Audio**
 
 | Package | Description |
@@ -55,7 +53,7 @@
 | [kidzdev-unity-responsive-fit](https://github.com/knabsiraphop/kidzdev-unity-responsive-fit) | Responsive grid / scroll item sizing — fit by items-per-view, aspect ratio, or column count |
 | [kidzdev-unity-screen-navigator](https://github.com/knabsiraphop/kidzdev-unity-screen-navigator) | Stack-based UI navigation — push/pop history with a back button, async transitions, and an injectable animation seam. UniTask-only, zero singleton coupling |
 | [kidzdev-unity-popup](https://github.com/knabsiraphop/kidzdev-unity-popup) | Modal dialogs you await for a typed result — `ShowAsync<TResult>()`, reentrant stacking, async transitions, per-popup loader split (Resources / Direct / Addressables). UniTask-only, Addressables optional, zero singleton coupling |
-| [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Two complementary notch/safe-area components for Unity uGUI. SafeArea shrinks a RectTransform inside the device safe area; SafeAreaOutsideMask fills the region outside it. Includes an Editor window for Android cutout mode and iOS home indicator configuration. |
+| [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Notch / safe-area layout — `SafeArea` shrinks a RectTransform inside the device safe area, `SafeAreaOutsideMask` fills the region outside it, plus an Editor window for Android cutout & iOS home indicator setup |
 
 **🛠️ Editor Tools**
 

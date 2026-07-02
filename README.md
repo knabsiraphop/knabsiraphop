@@ -70,6 +70,9 @@
 
 ### 📊 GitHub Stats
 <p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=knabsiraphop&show_icons=true&theme=tokyonight" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=knabsiraphop&layout=compact&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=knabsiraphop&theme=tokyonight" />
+</p>
+<p>
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=knabsiraphop&theme=tokyonight" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=knabsiraphop&theme=tokyonight" />
 </p>

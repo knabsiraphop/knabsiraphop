@@ -8,7 +8,7 @@
 - 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University
-- 🔗 Portfolio → **[siraphop-portfolio.webflow.io](https://siraphop-portfolio.webflow.io)**
+- 🔗 Portfolio → **[knabsiraphop.github.io](https://knabsiraphop.github.io)**
 
 ### 🧩 Tech Stack
 <p>

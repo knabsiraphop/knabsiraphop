@@ -67,6 +67,7 @@
 | Package | Description |
 |---|---|
 | [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), and GameObjects |
+| [kidzdev-unity-profanity](https://github.com/knabsiraphop/kidzdev-unity-profanity) | Production-grade multilingual profanity filter — obfuscation-aware engine (leetspeak, separators, repeat-collapse), allowlist for false-positive prevention, plug-in data loader. Supports English and Thai |
 
 ### 📊 GitHub Stats
 <p>

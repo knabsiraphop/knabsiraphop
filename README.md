@@ -54,6 +54,7 @@
 | [kidzdev-unity-screen-navigator](https://github.com/knabsiraphop/kidzdev-unity-screen-navigator) | Stack-based UI navigation — push/pop history with a back button, async transitions, and an injectable animation seam. UniTask-only, zero singleton coupling |
 | [kidzdev-unity-popup](https://github.com/knabsiraphop/kidzdev-unity-popup) | Modal dialogs you await for a typed result — `ShowAsync<TResult>()`, reentrant stacking, async transitions, per-popup loader split (Resources / Direct / Addressables). UniTask-only, Addressables optional, zero singleton coupling |
 | [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Notch / safe-area layout — `SafeArea` shrinks a RectTransform inside the device safe area, `SafeAreaOutsideMask` fills the region outside it, plus an Editor window for Android cutout & iOS home indicator setup |
+| [kidzdev-unity-text-scroll](https://github.com/knabsiraphop/kidzdev-unity-text-scroll) | Animated text for uGUI/TMPro — marquee ticker, credits roll, auto-fit overflow scrolling, typewriter character reveal, and a count-up number roller. No third-party animation dependency |
 
 **🛠️ Editor Tools**
 

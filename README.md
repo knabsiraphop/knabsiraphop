@@ -5,7 +5,6 @@
 
 ### 👨‍💻 About me
 - 🛠️ I build **multiplayer, mobile & WebGL games** with **Unity** and **C#**, focused on real-time networking and scalable content delivery
-- 🌐 Specialties: **Nakama**, **Addressables**
 - 🧰 Building open-source Unity tooling under **KidzDev**
 - 🎓 B.Eng. Computer Engineering — Chiang Mai University
 - 🔗 Portfolio → **[knabsiraphop.github.io](https://knabsiraphop.github.io)**

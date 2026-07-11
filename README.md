@@ -57,6 +57,7 @@
 | [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Notch / safe-area layout — `SafeArea` shrinks a RectTransform inside the device safe area, `SafeAreaOutsideMask` fills the region outside it, plus an Editor window for Android cutout & iOS home indicator setup |
 | [kidzdev-unity-text-scroll](https://github.com/knabsiraphop/kidzdev-unity-text-scroll) | Animated text for uGUI/TMPro — marquee ticker, credits roll, auto-fit overflow scrolling, typewriter character reveal, and a count-up number roller. No third-party animation dependency |
 | [kidzdev-unity-ui-overlay](https://github.com/knabsiraphop/kidzdev-unity-ui-overlay) | Loading panels (fullscreen / progress / spinner) and a ref-counted input blocker — imperative `Show()`/dispose handles plus `Execute*` wrappers for one-line show/await/hide. UniTask-only, no DOTween, no Addressables dependency |
+| [kidzdev-unity-ui-animation](https://github.com/knabsiraphop/kidzdev-unity-ui-animation) | uGUI tweening toolkit — fade/scale/move/punch/shake/color extension methods, conflict-safe cancel-and-replace, a designer-facing step-sequence player, and button press feedback. No third-party animation dependency by default; optional DOTween-backed driver auto-compiles (never auto-activates) when DOTween is present |
 
 **🛠️ Editor Tools**
 

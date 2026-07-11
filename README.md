@@ -38,6 +38,7 @@
 | Package | Description |
 |---|---|
 | [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
+| [kidzdev-unity-singleton](https://github.com/knabsiraphop/kidzdev-unity-singleton) | Generic singleton bases — thread-safe plain C# `Singleton<T>`, auto-creating `MonoSingleton<T>`, and non-creating `SceneSingleton<T>`, handling MonoBehaviour lifecycle pitfalls (quit-teardown resurrection, domain-reload staleness, duplicate detection, DDOL placement). Zero external dependencies |
 
 **🎵 Audio**
 

@@ -25,6 +25,8 @@
 
 ### 🧰 Open Source — KidzDev Unity Packages
 
+*These packages are built with [Claude Code](https://claude.com/claude-code) — design, direction, and review by me; most implementation code written by Claude under that direction. All code is original.*
+
 **📦 Addressables & Asset Loading**
 
 | Package | Description |

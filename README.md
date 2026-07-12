@@ -26,6 +26,8 @@
 
 ### 🧰 Open Source — KidzDev Unity Packages
 
+Some of these started as patterns/code I picked up working with coworkers, rebuilt into standalone packages with Claude Code; others solve real problems I hit on shipped titles — when I didn't have time to build the fix myself, I used Claude Code to build it.
+
 **📦 Addressables & Asset Loading**
 
 | Package | Description |
@@ -37,6 +39,7 @@
 | Package | Description |
 |---|---|
 | [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
+| [kidzdev-unity-grid](https://github.com/knabsiraphop/kidzdev-unity-grid) | 2D/3D grid system — pure-C# per-cell data storage, A* pathfinding, multi-cell footprint placement, nearest-available-cell search, plus a thin Unity layer for world/cell conversion and mouse/touch picking. Optional adapter aligns to an existing `UnityEngine.Grid`, zero external dependencies |
 
 **🎵 Audio**
 
@@ -55,6 +58,9 @@
 | [kidzdev-unity-popup](https://github.com/knabsiraphop/kidzdev-unity-popup) | Modal dialogs you await for a typed result — `ShowAsync<TResult>()`, reentrant stacking, async transitions, per-popup loader split (Resources / Direct / Addressables). UniTask-only, Addressables optional, zero singleton coupling |
 | [kidzdev-unity-safe-area](https://github.com/knabsiraphop/kidzdev-unity-safe-area) | Notch / safe-area layout — `SafeArea` shrinks a RectTransform inside the device safe area, `SafeAreaOutsideMask` fills the region outside it, plus an Editor window for Android cutout & iOS home indicator setup |
 | [kidzdev-unity-text-scroll](https://github.com/knabsiraphop/kidzdev-unity-text-scroll) | Animated text for uGUI/TMPro — marquee ticker, credits roll, auto-fit overflow scrolling, typewriter character reveal, and a count-up number roller. No third-party animation dependency |
+| [kidzdev-unity-ui-overlay](https://github.com/knabsiraphop/kidzdev-unity-ui-overlay) | Loading panels (fullscreen / progress / spinner) and a ref-counted input blocker — imperative `Show()`/`Hide()` handles, sits above whatever screen or popup is showing. UniTask-only, no DOTween, no Addressables dependency |
+| [kidzdev-unity-ui-animation](https://github.com/knabsiraphop/kidzdev-unity-ui-animation) | UI tweening toolkit for uGUI — fade/scale/move/punch/shake/color extension methods, a designer-facing step-sequence player, and button press feedback. No third-party animation dependency by default; optional DOTween-backed driver auto-compiles when DOTween is already installed |
+| [kidzdev-unity-sliced-fill-image](https://github.com/knabsiraphop/kidzdev-unity-sliced-fill-image) | Fixes Unity's `Image.Type.Filled` + `Type.Sliced` clipping bug with a mesh-correct `SlicedFilledImage`, so 9-sliced borders stay fixed-size at any fill amount. Zero dependencies beyond uGUI |
 
 **🛠️ Editor Tools**
 
@@ -70,6 +76,8 @@
 | [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), and GameObjects |
 | [kidzdev-unity-profanity](https://github.com/knabsiraphop/kidzdev-unity-profanity) | Production-grade multilingual profanity filter — obfuscation-aware engine (leetspeak, separators, repeat-collapse) or fast regex mode, allowlist for false-positive prevention, plug-in data loader, ships with a production-scale ~135-entry EN/TH word list out of the box |
 | [kidzdev-unity-local-save](https://github.com/knabsiraphop/kidzdev-unity-local-save) | Generic on-disk persistence for any `[Serializable]` type — atomic + durable writes, automatic backup-on-corrupt recovery, optional HMAC signing / AES encryption, zero external dependencies |
+| [kidzdev-unity-singleton](https://github.com/knabsiraphop/kidzdev-unity-singleton) | Generic singleton bases — thread-safe plain C# `Singleton<T>`, auto-creating `MonoSingleton<T>`, non-creating `SceneSingleton<T>`. Handles MonoBehaviour lifecycle pitfalls (quit-teardown resurrection, domain-reload staleness, duplicate detection, DDOL placement), zero external dependencies |
+| [kidzdev-unity-analytics](https://github.com/knabsiraphop/kidzdev-unity-analytics) | Minimal analytics event-logging facade — validates event/parameter names against Firebase Analytics limits before dispatch, buffers events logged before initialization, warns instead of silently dropping on violations. Core has zero dependencies; Firebase adapter ships as an optional sample |
 
 ### 📊 GitHub Stats
 <p>

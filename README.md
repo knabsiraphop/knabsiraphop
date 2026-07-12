@@ -40,6 +40,7 @@
 | [kidzdev-unity-state-machine](https://github.com/knabsiraphop/kidzdev-unity-state-machine) | Sync & async (UniTask) finite state machine — optional transition graph, `QueueLatest` policy for button-mash safety, fallback recovery, fluent builder |
 | [kidzdev-unity-singleton](https://github.com/knabsiraphop/kidzdev-unity-singleton) | Generic singleton bases — thread-safe plain C# `Singleton<T>`, auto-creating `MonoSingleton<T>`, and non-creating `SceneSingleton<T>`, handling MonoBehaviour lifecycle pitfalls (quit-teardown resurrection, domain-reload staleness, duplicate detection, DDOL placement). Zero external dependencies |
 | [kidzdev-unity-analytics](https://github.com/knabsiraphop/kidzdev-unity-analytics) | Minimal analytics event-logging facade — validates event/parameter names against Firebase Analytics limits before dispatch, buffers events logged before initialization, warns instead of silently dropping on violations. Zero dependencies (core); optional Firebase adapter sample |
+| [kidzdev-unity-grid](https://github.com/knabsiraphop/kidzdev-unity-grid) | 2D/3D grid system — per-cell data storage (`Grid<TCell>`), synchronous A* pathfinding, multi-cell footprint placement, and nearest-available-cell search, plus a thin Unity layer for world/cell conversion and mouse/touch picking. Not a Tilemap replacement — an optional adapter aligns it to an existing `UnityEngine.Grid` when one is used for rendering. Zero external dependencies |
 
 **🎵 Audio**
 

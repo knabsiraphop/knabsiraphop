@@ -63,6 +63,7 @@
 | [kidzdev-unity-ui-overlay](https://github.com/knabsiraphop/kidzdev-unity-ui-overlay) | Loading panels (fullscreen / progress / spinner) and a ref-counted input blocker — imperative `Show()`/dispose handles plus `Execute*` wrappers for one-line show/await/hide. UniTask-only, no DOTween, no Addressables dependency |
 | [kidzdev-unity-ui-animation](https://github.com/knabsiraphop/kidzdev-unity-ui-animation) | uGUI tweening toolkit — fade/scale/move/punch/shake/color extension methods, conflict-safe cancel-and-replace, a designer-facing step-sequence player, and button press feedback. No third-party animation dependency by default; optional DOTween-backed driver auto-compiles (never auto-activates) when DOTween is present |
 | [kidzdev-unity-sliced-fill-image](https://github.com/knabsiraphop/kidzdev-unity-sliced-fill-image) | Fixes Unity's `Image.Type.Filled` + `Type.Sliced` clipping bug with a mesh-correct `SlicedFilledImage`, so 9-sliced borders stay fixed-size at any fill amount. Zero dependencies beyond uGUI |
+| [kidzdev-unity-toast](https://github.com/knabsiraphop/kidzdev-unity-toast) | Non-blocking, auto-dismissing notification banners (snackbars) for uGUI — fire-and-forget `Show()`, capped stack with newest-evicts-oldest admission, slide + fade transition. No DOTween, no Addressables dependency |
 
 **🛠️ Editor Tools**
 

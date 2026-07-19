@@ -64,6 +64,7 @@
 | [kidzdev-unity-ui-animation](https://github.com/knabsiraphop/kidzdev-unity-ui-animation) | uGUI tweening toolkit — fade/scale/move/punch/shake/color extension methods, conflict-safe cancel-and-replace, a designer-facing step-sequence player, and button press feedback. No third-party animation dependency by default; optional DOTween-backed driver auto-compiles (never auto-activates) when DOTween is present |
 | [kidzdev-unity-sliced-fill-image](https://github.com/knabsiraphop/kidzdev-unity-sliced-fill-image) | Fixes Unity's `Image.Type.Filled` + `Type.Sliced` clipping bug with a mesh-correct `SlicedFilledImage`, so 9-sliced borders stay fixed-size at any fill amount. Zero dependencies beyond uGUI |
 | [kidzdev-unity-toast](https://github.com/knabsiraphop/kidzdev-unity-toast) | Non-blocking, auto-dismissing notification banners (snackbars) for uGUI — fire-and-forget `Show()`, capped stack with newest-evicts-oldest admission, slide + fade transition. No DOTween, no Addressables dependency |
+| [kidzdev-unity-red-dot](https://github.com/knabsiraphop/kidzdev-unity-red-dot) | Hierarchical notification-badge tree for F2P-style UI — `SetCount("shop/daily", 1)` lights up `shop` and the root too, clearing back down once no descendant is still dirty. Unified count model (a dot is just count 0/1), eager O(1)-read aggregation, push-based `Observe`, uGUI binder. Zero external dependencies |
 
 **🛠️ Editor Tools**
 

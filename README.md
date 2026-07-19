@@ -76,7 +76,7 @@
 
 | Package | Description |
 |---|---|
-| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), and GameObjects |
+| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), GameObjects, Animators, Cameras, and ScrollRects |
 | [kidzdev-unity-profanity](https://github.com/knabsiraphop/kidzdev-unity-profanity) | Production-grade multilingual profanity filter — obfuscation-aware engine (leetspeak, separators, repeat-collapse) or fast regex mode, allowlist for false-positive prevention, plug-in data loader, ships with a production-scale ~135-entry EN/TH word list out of the box |
 | [kidzdev-unity-local-save](https://github.com/knabsiraphop/kidzdev-unity-local-save) | Generic on-disk persistence for any `[Serializable]` type — atomic + durable writes, automatic backup-on-corrupt recovery, optional HMAC signing / AES encryption, zero external dependencies |
 

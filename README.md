@@ -66,6 +66,12 @@
 | [kidzdev-unity-toast](https://github.com/knabsiraphop/kidzdev-unity-toast) | Non-blocking, auto-dismissing notification banners (snackbars) for uGUI — fire-and-forget `Show()`, capped stack with newest-evicts-oldest admission, slide + fade transition. No DOTween, no Addressables dependency |
 | [kidzdev-unity-red-dot](https://github.com/knabsiraphop/kidzdev-unity-red-dot) | Hierarchical notification-badge tree for F2P-style UI — `SetCount("shop/daily", 1)` lights up `shop` and the root too, clearing back down once no descendant is still dirty. Unified count model (a dot is just count 0/1), eager O(1)-read aggregation, push-based `Observe`, uGUI binder. Zero external dependencies |
 
+**📸 Rendering & Capture**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-render-capture](https://github.com/knabsiraphop/kidzdev-unity-render-capture) | Render an isolated GameObject through its own camera into an owned `RenderTexture` — live `RawImage` feed, one-shot freeze, and export to `Texture2D` / PNG bytes / `Sprite`. Plus a whole-screen `ScreenCapture` grab and an existing-camera capture helper. Multi-instance-safe via spatial isolation, pipeline-agnostic (Built-in/URP/HDRP). Zero dependencies beyond UniTask |
+
 **🛠️ Editor Tools**
 
 | Package | Description |

@@ -43,6 +43,12 @@
 | [kidzdev-unity-grid](https://github.com/knabsiraphop/kidzdev-unity-grid) | 2D/3D grid system — per-cell data storage (`Grid<TCell>`), synchronous A* pathfinding, multi-cell footprint placement, and nearest-available-cell search, plus a thin Unity layer for world/cell conversion and mouse/touch picking. Not a Tilemap replacement — an optional adapter aligns it to an existing `UnityEngine.Grid` when one is used for rendering. Zero external dependencies |
 | [kidzdev-unity-notifications](https://github.com/knabsiraphop/kidzdev-unity-notifications) | Cross-platform local notification scheduler over `com.unity.mobile.notifications` — one facade + `INotificationScheduler` seam replaces per-platform `#if` branching, `NotificationId` derives both Android/iOS identities from a single key, typed `PermissionDenied` result (no permission-wait hangs), facade-level idempotency, cached async launch-notification inspection for deep links |
 
+**🌐 Networking**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-nakama-client](https://github.com/knabsiraphop/kidzdev-unity-nakama-client) | Session/connection/request-pipeline plumbing over the Nakama Unity SDK — pluggable auth (custom-id/device-id) with token persistence + refresh, retrying request runner with typed errors, RPC dispatch, storage CRUD, and socket connect/reconnect lifecycle. Not yet verified against a live server |
+
 **🎵 Audio**
 
 | Package | Description |

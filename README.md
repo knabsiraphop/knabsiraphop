@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Bank 👋</h1>
-<p align="center">🎮 Unity Game Developer · 🌏 Bangkok, Thailand · 🕹️ 6+ years</p>
+<p align="center">🎮 Unity Game Developer · 🌏 Bangkok, Thailand · 🕹️ 6 years</p>
 
 ---
 
@@ -18,10 +18,12 @@
 ![Addressables](https://img.shields.io/badge/Unity_Addressables-222C37?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-### 🎮 Shipped Games
-- **Zabb World: Secret Stories** — multiplayer virtual-life simulation (Nakama networking)
-- **Rescue MeowMeow** — educational puzzle game for Thai PBS Kids (WebGL & mobile browser) · [▶ Play Demo](https://knabsiraphop.itch.io/rescue-meowmeow-portfolio-demo)
-- **Pakapow: Friendship Never Ends** — bug fixes, fashion system updates, build pipeline
+### 🎮 Games
+- **Zabb World: Secret Stories** — lead client engineer, 6-year social life-sim MMO (Nakama networking, live-ops, economy)
+- **Dream Runner X** *(in development)* — own several end-to-end live-ops systems (mail, shop + IAP, gachapon, daily rewards) on a new multiplayer running game
+- **Cat vs Aliens** — sole programmer; shipped on Google Play + Huawei AppGallery
+- **Rescue MeowMeow** — sole programmer; educational puzzle game for Thai PBS Kids (WebGL & mobile browser) · [▶ Play Demo](https://knabsiraphop.itch.io/rescue-meowmeow-portfolio-demo)
+- **Pakapow: Friendship Never Ends** — guild system (PlayFab Groups), battle UI, build maintenance
 
 ### 🧰 Open Source — KidzDev Unity Packages
 

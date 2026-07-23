@@ -18,13 +18,6 @@
 ![Addressables](https://img.shields.io/badge/Unity_Addressables-222C37?style=flat-square)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-CC785C?style=flat-square&logo=anthropic&logoColor=white)
 
-### 🎮 Games
-- **Zabb World: Secret Stories** — lead client engineer, 6-year social life-sim MMO (Nakama networking, live-ops, economy)
-- **Dream Runner X** *(in development)* — own several end-to-end live-ops systems (mail, shop + IAP, gachapon, daily rewards) on a new multiplayer running game
-- **Cat vs Aliens** — sole programmer; shipped on Google Play + Huawei AppGallery
-- **Rescue MeowMeow** — sole programmer; educational puzzle game for Thai PBS Kids (WebGL & mobile browser) · [▶ Play Demo](https://knabsiraphop.itch.io/rescue-meowmeow-portfolio-demo)
-- **Pakapow: Friendship Never Ends** — guild system (PlayFab Groups), battle UI, build maintenance
-
 ### 🧰 Open Source — KidzDev Unity Packages
 
 *These packages are built with [Claude Code](https://claude.com/claude-code) — design, direction, and review by me; most implementation code written by Claude under that direction. All code is original. Some started as patterns and code I picked up working with coworkers, rebuilt into standalone packages this way; others solve a real problem I hit on a shipped title where I didn't have time to build the fix myself, so I used Claude Code to build it.*

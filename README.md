@@ -43,6 +43,14 @@
 | [kidzdev-unity-singleton](https://github.com/knabsiraphop/kidzdev-unity-singleton) | Generic singleton bases — thread-safe plain C# `Singleton<T>`, auto-creating `MonoSingleton<T>`, and non-creating `SceneSingleton<T>`, handling MonoBehaviour lifecycle pitfalls (quit-teardown resurrection, domain-reload staleness, duplicate detection, DDOL placement). Zero external dependencies |
 | [kidzdev-unity-analytics](https://github.com/knabsiraphop/kidzdev-unity-analytics) | Minimal analytics event-logging facade — validates event/parameter names against Firebase Analytics limits before dispatch, buffers events logged before initialization, warns instead of silently dropping on violations. Zero dependencies (core); optional Firebase adapter sample |
 | [kidzdev-unity-grid](https://github.com/knabsiraphop/kidzdev-unity-grid) | 2D/3D grid system — per-cell data storage (`Grid<TCell>`), synchronous A* pathfinding, multi-cell footprint placement, and nearest-available-cell search, plus a thin Unity layer for world/cell conversion and mouse/touch picking. Not a Tilemap replacement — an optional adapter aligns it to an existing `UnityEngine.Grid` when one is used for rendering. Zero external dependencies |
+| [kidzdev-unity-notifications](https://github.com/knabsiraphop/kidzdev-unity-notifications) | Cross-platform local notification scheduler over `com.unity.mobile.notifications` — one facade + `INotificationScheduler` seam replaces per-platform `#if` branching, `NotificationId` derives both Android/iOS identities from a single key, typed `PermissionDenied` result (no permission-wait hangs), facade-level idempotency, cached async launch-notification inspection for deep links |
+| [kidzdev-unity-spine-skin](https://github.com/knabsiraphop/kidzdev-unity-spine-skin) | Runtime skin mix-and-match composer for Spine 2D skeletons (`SkeletonAnimation`/`SkeletonGraphic`) — category-based part swapping, save-friendly loadouts, single-slot attachment swap, optional atlas repacking with leak-free disposal. Requires a separately-licensed spine-unity runtime (not bundled); inert until spine-unity is present |
+
+**🌐 Networking**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-nakama-client](https://github.com/knabsiraphop/kidzdev-unity-nakama-client) | Session/connection/request-pipeline plumbing over the Nakama Unity SDK — pluggable auth (custom-id/device-id) with token persistence + refresh, retrying request runner with typed errors, RPC dispatch, storage CRUD, and socket connect/reconnect lifecycle. Not yet verified against a live server |
 
 **🎵 Audio**
 
@@ -64,6 +72,14 @@
 | [kidzdev-unity-ui-overlay](https://github.com/knabsiraphop/kidzdev-unity-ui-overlay) | Loading panels (fullscreen / progress / spinner) and a ref-counted input blocker — imperative `Show()`/dispose handles plus `Execute*` wrappers for one-line show/await/hide. UniTask-only, no DOTween, no Addressables dependency |
 | [kidzdev-unity-ui-animation](https://github.com/knabsiraphop/kidzdev-unity-ui-animation) | uGUI tweening toolkit — fade/scale/move/punch/shake/color extension methods, conflict-safe cancel-and-replace, a designer-facing step-sequence player, and button press feedback. No third-party animation dependency by default; optional DOTween-backed driver auto-compiles (never auto-activates) when DOTween is present |
 | [kidzdev-unity-sliced-fill-image](https://github.com/knabsiraphop/kidzdev-unity-sliced-fill-image) | Fixes Unity's `Image.Type.Filled` + `Type.Sliced` clipping bug with a mesh-correct `SlicedFilledImage`, so 9-sliced borders stay fixed-size at any fill amount. Zero dependencies beyond uGUI |
+| [kidzdev-unity-toast](https://github.com/knabsiraphop/kidzdev-unity-toast) | Non-blocking, auto-dismissing notification banners (snackbars) for uGUI — fire-and-forget `Show()`, capped stack with newest-evicts-oldest admission, slide + fade transition. No DOTween, no Addressables dependency |
+| [kidzdev-unity-red-dot](https://github.com/knabsiraphop/kidzdev-unity-red-dot) | Hierarchical notification-badge tree for F2P-style UI — `SetCount("shop/daily", 1)` lights up `shop` and the root too, clearing back down once no descendant is still dirty. Unified count model (a dot is just count 0/1), eager O(1)-read aggregation, push-based `Observe`, uGUI binder. Zero external dependencies |
+
+**📸 Rendering & Capture**
+
+| Package | Description |
+|---|---|
+| [kidzdev-unity-render-capture](https://github.com/knabsiraphop/kidzdev-unity-render-capture) | Render an isolated GameObject through its own camera into an owned `RenderTexture` — live `RawImage` feed, one-shot freeze, and export to `Texture2D` / PNG bytes / `Sprite`. Plus a whole-screen `ScreenCapture` grab and an existing-camera capture helper. Multi-instance-safe via spatial isolation, pipeline-agnostic (Built-in/URP/HDRP). Zero dependencies beyond UniTask |
 
 **🛠️ Editor Tools**
 
@@ -76,7 +92,7 @@
 
 | Package | Description |
 |---|---|
-| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), and GameObjects |
+| [kidzdev-unity-extensions](https://github.com/knabsiraphop/kidzdev-unity-extensions) | Handy C# / Unity extension methods — strings, collections, numerics, date & time (`DateTimeOffset`, `TimeSpan`, relative time), GameObjects, Animators, Cameras, and ScrollRects |
 | [kidzdev-unity-profanity](https://github.com/knabsiraphop/kidzdev-unity-profanity) | Production-grade multilingual profanity filter — obfuscation-aware engine (leetspeak, separators, repeat-collapse) or fast regex mode, allowlist for false-positive prevention, plug-in data loader, ships with a production-scale ~135-entry EN/TH word list out of the box |
 | [kidzdev-unity-local-save](https://github.com/knabsiraphop/kidzdev-unity-local-save) | Generic on-disk persistence for any `[Serializable]` type — atomic + durable writes, automatic backup-on-corrupt recovery, optional HMAC signing / AES encryption, zero external dependencies |
 
